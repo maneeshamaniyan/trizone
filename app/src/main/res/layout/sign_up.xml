@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dodger_blue"
+    android:paddingTop="@dimen/layout_padding">
+
+    <RelativeLayout
+        android:id="@+id/userNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding">
+
+        <TextView
+            android:id="@+id/userNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/user_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userNameLayout"
+        android:padding="@dimen/layout_padding">
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/email"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/passwordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailLayout"
+        android:padding="@dimen/layout_padding">
+
+        <TextView
+            android:id="@+id/passwordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/password"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/phoneNumberLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordLayout"
+        android:padding="@dimen/layout_padding">
+
+        <TextView
+            android:id="@+id/phoneNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/number"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/phoneNumberEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_toRightOf="@id/phoneNumberTextView"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumberLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_margin"
+        android:text="@string/register"
+        android:textSize="@dimen/title_size" />
+
+
+</RelativeLayout>

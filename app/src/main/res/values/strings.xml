@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">New Star</string>
+    <string name="new_star">NEW STAR TRADERS</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sgn_in">Sign In</string>
+    <string name="skip">Skip</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="electrical">Electrical</string>
+    <string name="plumbing">Plumbing</string>
+    <string name="sanitary">Sanitary</string>
+    <string name="paints">Paints</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+
+</resources>

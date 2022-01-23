@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729875603168",
+    "project_id": "new-star-4c5d9",
+    "storage_bucket": "new-star-4c5d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729875603168:android:2079882cee25775561fa85",
+        "android_client_info": {
+          "package_name": "com.example.trizone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729875603168-mamu7a6bev2mrl94a4kuqos2rrcrscgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH94Om89LAYK8KDVXbXIAlvKuaILtAflE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729875603168-mamu7a6bev2mrl94a4kuqos2rrcrscgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
