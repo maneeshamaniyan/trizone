@@ -5,4 +5,8 @@
     <dimen name="list_margin">2dp</dimen>
     <dimen name="button_margin">40dp</dimen>
     <dimen name="text_margin">5dp</dimen>
+    <dimen name="edit_text_margin">12dp</dimen>
+    <dimen name="padding_email_text">90dp</dimen>
+    <dimen name="padding_password_text">50dp</dimen>
+
 </resources>
